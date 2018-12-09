@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="426dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Record: 1" />
+
+        <TextView
+            android:id="@+id/mensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+        <TextView
+            android:id="@+id/nivel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nivel: 1" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/jugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jugar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="335dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/rojo"
+            style="@style/estiloCirculo"
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            />
+
+        <ImageView
+            android:id="@+id/amarillo"
+            style="@style/estiloCirculo"
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            />
+
+        <ImageView
+            android:id="@+id/verde"
+            style="@style/estiloCirculo"
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/botonRojo"
+            style="@style/estiloCirculo"
+            android:layout_height="match_parent"
+            android:src="@drawable/rojo"/>
+
+        <ImageView
+            android:id="@+id/botonAmarillo"
+            style="@style/estiloCirculo"
+            android:layout_height="match_parent"
+            android:src="@drawable/amarillo"/>
+
+        <ImageView
+            android:id="@+id/botonVerde"
+            style="@style/estiloCirculo"
+            android:layout_height="match_parent"
+            android:src="@drawable/verde"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
