@@ -3,42 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NoticiasFragment">
+    tools:context=".PuntuacionFragment">
 
     <!-- TODO: Update blank fragment layout -->
-
-    <LinearLayout
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/nombreAlumno"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="José Manuel Bravo Martínez"
-                android:textSize="14sp" />
-
-            <TextView
-                android:id="@+id/titulo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="SKB                        IES Gran Capitán"
-                android:textSize="36sp"
-                android:textStyle="bold" />
-
-
-
-        </LinearLayout>
-
-    </LinearLayout>
+        android:gravity="center"
+        android:text="noticias aqui"
+        android:textSize="30sp" />
 
 </FrameLayout>
